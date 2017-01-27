@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_04.OOP_Principles___Part_1.School.Discipline" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAAABAAAIAAAASAAAAEAAAAABAAAAAAIAA=</HashCode>
+      <FileName>School\Discipline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_04.OOP_Principles___Part_1.School.Person" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>School\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_04.OOP_Principles___Part_1.School.SchoolClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACIAAQQACAgAAABAAAAAAAAEAAAAAIBQAAAIAA=</HashCode>
+      <FileName>School\SchoolClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_04.OOP_Principles___Part_1.School.Student" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAQIAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>School\Student.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_04.OOP_Principles___Part_1.School.Teacher" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAAAAAAAAAAAAAAAABAAAAEAAAAAAAAIAA=</HashCode>
+      <FileName>School\Teacher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.272" />
+  </Class>
+  <Interface Name="_04.OOP_Principles___Part_1.School.IComment" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>School\IComment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
