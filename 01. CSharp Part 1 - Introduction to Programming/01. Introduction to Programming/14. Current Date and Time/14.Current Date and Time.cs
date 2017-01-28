@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Current_Date_and_Time
 {
@@ -14,3 +10,7 @@ namespace Current_Date_and_Time
         }
     }
 }
+/*Description
+
+Create a console application that prints the current date and time. Find out how in Interne
+*/

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PrintMyName
 {
@@ -14,3 +10,8 @@ namespace PrintMyName
         }
     }
 }
+/*Description
+
+Create a C# application that print your name on the console.
+Ensure you have named the application well (e.g. “PrintMyName”).
+*/
