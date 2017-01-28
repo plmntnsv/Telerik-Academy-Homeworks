@@ -31,17 +31,9 @@ namespace _03._08.Prime_check
                             isPrime = false;
                             break;
                         }
-                        
-                           
+
+
                     }
-                    //if (isPrime)
-                    //{
-                    //    Console.WriteLine("true");
-                    //}
-                    //else
-                    //{
-                    //    Console.WriteLine("false");
-                    //}
 
                     Console.WriteLine(isPrime ? "true" : "false");
 
