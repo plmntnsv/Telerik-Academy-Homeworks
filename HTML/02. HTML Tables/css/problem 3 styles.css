@@ -1,0 +1,38 @@
+td{
+  width: 55px;
+  height: 50px;
+}
+table, th, td{
+  border: 2px solid rgb(242, 255, 4);
+  border-collapse: collapse;
+}
+td{
+  text-align: center;
+}
+td input{
+  border-color: rgb(232, 110, 19);
+  background-color:rgb(181, 19, 19);
+  color: rgb(191, 142, 47);
+  font-size: 25px;
+  width: 58px;
+  height: 50px;
+  background-color:
+}
+th input{
+  background-color: rgb(198, 101, 0);
+  border-color: rgb(0, 0, 0);
+  color: rgba(255, 184, 0, 0.79);
+  padding-right: 5px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 40px;
+  width: 230px;
+  height: 70px;
+}
+form table tbody tr:last-child td:first-child input{
+width: 118px;
+}
+table, tr, td, th, input{
+  margin: 0px;
+  padding: 0px;
+}

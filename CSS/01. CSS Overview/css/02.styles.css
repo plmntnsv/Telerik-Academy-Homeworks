@@ -1,0 +1,38 @@
+table, td{
+  border-collapse: collapse;
+vertical-align: middle;
+  font-family: arial;
+  font-size: 13px;
+}
+img{
+  width: 16px;
+  height: 10px;
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+}
+td{
+  padding-left: 5px;
+  width: 130px;
+  height: 20px;
+}
+tbody tr:nth-child(even){
+  background-color: #ECECD8;
+}
+thead tr{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5ec306+0,52b506+48,37a83d+100 */
+  background: rgb(94,195,6); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(94,195,6,1) 0%, rgba(82,181,6,1) 48%, rgba(55,168,61,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(94,195,6,1) 0%,rgba(82,181,6,1) 48%,rgba(55,168,61,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(94,195,6,1) 0%,rgba(82,181,6,1) 48%,rgba(55,168,61,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec306', endColorstr='#37a83d',GradientType=0 ); /* IE6-9 */
+
+color: white;
+}
+table thead tr:first-child, table tbody tr:last-child{
+  border-bottom: 1px solid gray;
+}
+table td:nth-child(2),table td:nth-child(3){
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}

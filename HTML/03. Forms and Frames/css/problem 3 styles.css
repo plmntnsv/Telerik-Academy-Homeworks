@@ -1,0 +1,49 @@
+table {
+  border: 1px solid black;
+}
+body table thead tr th{
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+body > table{
+  border-collapse: separate;
+  border-radius: 10px;
+}
+img{
+  width: 100px;
+  display: inline-block;
+}
+body table tbody tr td form table tr td fieldset table td p{
+  padding-right: 8px;
+  text-align: right;
+  margin: 0px;
+}
+body table tbody tr td form table tr td fieldset table td {
+  width: 80px;
+}
+
+ul{
+  width: 90px;
+  position: relative;
+  top: 14px;
+  padding: 0px;
+}
+li{
+  list-style: none;
+  margin-top: 18px;
+}
+table table table {
+  border: none;
+}
+fieldset{
+  padding: 0px;
+}
+legend{
+  text-align: center;
+}
+form{
+  margin: 5px;
+}
+thead {
+  border-radius: 10px;
+}

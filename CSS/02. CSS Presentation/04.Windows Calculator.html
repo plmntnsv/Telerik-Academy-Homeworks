@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wndows calculator</title>
+    <link rel="stylesheet" href="css/04.Styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <img src="images/calculator.png" alt="wincalculator"> Calculator
+        <form action="">
+            <input type="button" name="" value="&#10006;">
+            <input type="button" name="" value="&#128470;" disabled="disabled">
+            <input type="button" name="" value="&#128469;">
+        </form>
+
+        <div id="main">
+            <div id="nav">
+                <form action="">
+                    <ul>
+                        <li><button type="button" name="button">View</button></li>
+                        <li><button type="button" name="button">Edit</button></li>
+                        <li><button type="button" name="button">Help</button></li>
+                    </ul>
+                </form>
+            </div>
+            <div id="content">
+                <form action=""><input type="text" name="" value="8854455"></form>
+                <div id="binaryRepresentation">
+                    <ul>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                    </ul>
+                    <ul>
+                        <li>63</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>47</li>
+                        <li></li>
+                        <li></li>
+                        <li>32</li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>1000</li>
+                        <li>0111</li>
+                        <li>0001</li>
+                        <li>1011</li>
+                        <li>1011</li>
+                        <li>0111</li>
+                    </ul>
+                    <ul>
+                        <li>31</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>15</li>
+                        <li></li>
+                        <li></li>
+                        <li>0</li>
+                    </ul>
+                </div>
+                <div id="hexQword">
+                    <div class="checkboxes">
+                        <form action="">
+                            <ul>
+                                <label for="hex"><li><input type="radio" name="zz" id="hex">Hex</li></label>
+                                <label for="dec"><li><input type="radio" name="zz" id="dec">Dec</li></label>
+                                <label for="oct"><li><input type="radio" name="zz" id="oct">Oct</li></label>
+                                <label for="bin"><li><input type="radio" name="zz" id="bin">Bin</li></label>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="checkboxes">
+                        <form action="">
+                            <ul>
+                                <label for="qw"><li><input type="radio" name="zz2"id="qw">Qword</li></label>
+                                <label for="dw"><li><input type="radio" name="zz2"id="dw">Dword</li></label>
+                                <label for="wo"><li><input type="radio" name="zz2"id="wo">Word</li></label>
+                                <label for="by"><li><input type="radio" name="zz2"id="by">Byte</li></label>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <td><input type="button" value="" class="transparent" disabled></td>
+                        <td><input type="button" value="Mod" class="active"></td>
+                        <td><input type="button" value="A" class="transparent" disabled></td>
+                        <td><input type="button" value="MC" class="transparent" disabled></td>
+                        <td><input type="button" value="MR" class="transparent" disabled></td>
+                        <td><input type="button" value="MS" class="transparent" disabled></td>
+                        <td><input type="button" value="M+" class="transparent" disabled></td>
+                        <td><input type="button" value="M-" class="transparent" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="(" class="active"></td>
+                        <td><input type="button" value=")" class="active"></td>
+                        <td><input type="button" value="B" class="transparent" disabled></td>
+                        <td><input type="button" value="&larr;" class="active"></td>
+                        <td><input type="button" value="CE" class="active"></td>
+                        <td><input type="button" value="C" class="active"></td>
+                        <td><input type="button" value="&plusmn;" class="active"></td>
+                        <td><input type="button" value="&radic;" class="transparent" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="RoL" class="active"></td>
+                        <td><input type="button" value="RoR" class="active"></td>
+                        <td><input type="button" value="C" class="transparent" disabled></td>
+                        <td><input type="button" value="7" class="active"></td>
+                        <td><input type="button" value="8" class="active"></td>
+                        <td><input type="button" value="9" class="active"></td>
+                        <td><input type="button" value="/" class="active"></td>
+                        <td><input type="button" value="%" class="transparent" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Or" class="active"></td>
+                        <td><input type="button" value="Xor" class="active"></td>
+                        <td><input type="button" value="D" class="transparent" disabled></td>
+                        <td><input type="button" value="4" class="active"></td>
+                        <td><input type="button" value="5" class="active"></td>
+                        <td><input type="button" value="6" class="active"></td>
+                        <td><input type="button" value="*" class="active"></td>
+                        <td><input type="button" value="1/x" class="transparent" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Lsh" class="active"></td>
+                        <td><input type="button" value="Rsh" class="active"></td>
+                        <td><input type="button" value="E" class="transparent" disabled></td>
+                        <td><input type="button" value="1" class="active"></td>
+                        <td><input type="button" value="2" class="active"></td>
+                        <td><input type="button" value="3" class="active"></td>
+                        <td><input type="button" value="-" class="active"></td>
+                        <td rowspan="2"><input type="button" value="=" id="rowspan" class="active"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Not" class="active"></td>
+                        <td><input type="button" value="And" class="active"></td>
+                        <td><input type="button" value="F" class="transparent" disabled></td>
+                        <td colspan="2"><input type="button" value="0" id="colspan" class="active"></td>
+                        <td><input type="button" value="." class="transparent" disabled></td>
+                        <td><input type="button" value="+" class="active"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

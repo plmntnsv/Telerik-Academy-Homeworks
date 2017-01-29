@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+body>div{
+  width: 1400px;
+  margin: 20px 0 0 20px;
+
+}
+body div{
+  background-color: black;
+  border: 1px solid red;
+  border-radius: 60px;
+}
+.push{
+    width: 90%;
+}

@@ -1,0 +1,28 @@
+body{
+  width: 800px;
+  background-color: #A9A9A9;
+}
+body> header{
+text-align: center;
+}
+body>footer{
+text-align: center;
+}
+header{
+  color: white;
+}
+nav li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav li:last-child{
+  text-decoration: underline;
+}
+nav li a:hover{
+  background-color: #D3D3D3;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,50 @@
+body * {
+  font-family:sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+table tbody * {
+  font-size: 13px;
+}
+table thead{
+  color: #C1C1C1;
+}
+table, td {
+  background-color: #595959;
+}
+body table tbody tr td:first-child{
+width: 120px;
+color: white;
+font-style: italic;
+}
+body table tr td:nth-child(2) {
+width: 200px
+}
+tbody tr:first-child td{
+  vertical-align: bottom;
+}
+td {
+  height: 27px;
+}
+div{
+  display: inline-block;
+}
+img{
+  width: 12px;
+  height: 12px;
+}
+.yellowish{
+  color: #FFEBB2;
+}
+.grayish{
+  color: #BBBBBB;
+}
+#redbold{
+  vertical-align: top;
+  color: #DD0300;
+  font-weight: bold;
+}
+#orangebold{
+  color: #DE6B1D;
+  font-weight: bold;
+}

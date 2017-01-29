@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body>div{
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  padding: 15px;
+  width: 440px;
+  margin: 10px;
+}
+div div{
+  padding: 12px 12px 9px 12px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 30px 0 20px 0;
+  position: relative;
+}
+div>img{
+  width: 150px;
+  height: 110px;
+  border: 1px solid grey;
+}
+div div p{
+  float: right;
+  width: 244px;
+}
+button{
+  width: 80px;
+  height: 25px;
+  background-image: url("../images/button.png");
+  color: white;
+  margin-right: 2px;
+  border-color: #E98180 #BC0000 #BC0000 #E98180;
+}
+form{
+  position: absolute;
+  left: 265px;
+  top: 95px;
+}
+form button:last-of-type{
+  width: 68px;
+}

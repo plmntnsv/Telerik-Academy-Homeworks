@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+body{
+  font-family: Consolas;
+  color: #0094ff;
+  width: 800px;
+}
+body p>span{
+  font-weight: bold;
+}
+body p span span{
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+}

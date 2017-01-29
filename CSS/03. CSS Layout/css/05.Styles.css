@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#container {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 740px;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    margin: 0 10px 10px 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #00AFF0;
+}
+
+main, aside {
+    display: inline-block;
+}
+
+main {
+    width: 506px;
+    border: 2px solid black;
+    padding: 0 10px 10px 4px;
+    vertical-align: top;
+}
+
+main section {
+    display: inline-block;
+    width: 250px;
+    position: relative;
+}
+
+main section form {
+    position: relative;
+}
+
+main section form fieldset {
+    position: relative;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+main section form fieldset ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main section form fieldset ul li {
+    margin-top: 15px;
+}
+
+main section form fieldset p {
+    position: absolute;
+    bottom: 3px;
+    left: 30px;
+}
+
+main section form fieldset img {
+    width: 130px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main section form fieldset legend {
+    text-align: center;
+}
+aside{
+margin-left: 15px;
+padding-top: 80px;
+}
+aside form input{
+  display: block;
+  width: 170px;
+  margin: 10px 0 10px 10px;
+}
+aside form p{
+  display: inline-block;
+  font-size: 17px;
+  margin: 10px 0 10px 0;
+}
+.push{
+  margin-right: 20px;
+}
+.push2{
+  margin-right: 55px;
+}
+.push3{
+  margin-right: 45px;
+}

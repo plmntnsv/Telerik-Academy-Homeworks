@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#container {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 4px;
+    overflow: visible;
+    background-color: #F1F1F1;
+    position: relative;
+    width: 935px;
+}
+
+nav, main, aside {
+    display: inline-block;
+}
+
+p, a, li {
+    font-size: 15px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav img {
+    display: inline;
+    margin-top: 20px;
+    float: left;
+}
+
+nav p {
+    margin-top: 23px;
+    display: inline-block;
+}
+
+nav p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul {
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li:first-of-type {
+    color: darkred;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    border: 1px solid gray;
+    vertical-align: top;
+    background-color: white;
+    padding: 4px;
+    width: 590px;
+}
+
+main header h2 {
+    margin: 20px 0 15px 0;
+}
+
+main form input {
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 23px;
+    text-align: left;
+}
+main form input:last-of-type{
+  text-align: right;
+}
+main form input:active {
+    border: 1px solid gray;
+}
+
+main hr {
+    margin: 9px 0 9px 0;
+}
+
+main h3 {
+    color: white;
+    background-color: #808080;
+}
+
+main section img {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+}
+
+main section div {
+    display: inline-block;
+    width: 440px;
+    vertical-align: top;
+}
+
+main section p {
+    margin: 15px 0 15px 0;
+}
+
+main section:first-of-type div p {
+    font-weight: bold;
+}
+
+main section:first-of-type div p span {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+main section a {
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+main section:first-of-type div a {
+    margin-bottom: 30px;
+}
+
+main section:last-of-type a {
+    margin-bottom: 8px;
+}
+
+main footer hr:last-of-type {
+    margin-bottom: 50px;
+}
+
+main a, aside a {
+    color: darkred;
+}
+
+aside {
+    vertical-align: top;
+    width: 170px;
+}
+
+aside div {
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+aside div form {
+    text-align: center;
+}
+
+aside div form input[type=text] {
+    width: 90px;
+    margin: 10px 0 8px 0;
+}
+
+aside div form input[type=button] {
+    width: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+aside div form input[type=button]:active {
+    border: 1px solid gray;
+}
+
+aside div button {
+    display: block;
+    position: relative;
+    left: 27px;
+    margin-top: 3px;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    color: #1CC4FF;
+    border: 1px solid #689BC2;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#98d6f7+0,c1e7fa+7,c1e7fa+94,98d6f7+100 */
+    background: rgb(152, 214, 247);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(152, 214, 247, 1) 0%, rgba(193, 231, 250, 1) 7%, rgba(193, 231, 250, 1) 94%, rgba(152, 214, 247, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(152, 214, 247, 1) 0%, rgba(193, 231, 250, 1) 7%, rgba(193, 231, 250, 1) 94%, rgba(152, 214, 247, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(152, 214, 247, 1) 0%, rgba(193, 231, 250, 1) 7%, rgba(193, 231, 250, 1) 94%, rgba(152, 214, 247, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#98d6f7', endColorstr='#98d6f7', GradientType=1);
+    /* IE6-9 */
+}
+aside div button:active{
+  border: 1px solid lightblue;
+}
+aside div p {
+    color: white;
+    background-color: #808080;
+    text-align: center;
+}
+
+aside div a {
+    display: block;
+    text-align: center;
+    margin: 4px;
+}

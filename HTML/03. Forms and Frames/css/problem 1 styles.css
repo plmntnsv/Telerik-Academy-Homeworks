@@ -1,0 +1,64 @@
+table{
+  width: 520px;
+}
+table, td{
+border: 1px solid gray;
+border-collapse: collapse;
+}
+textarea{
+  resize: none;
+}
+form table tbody tr td:first-child{
+  text-align: right;
+  font-weight: bold;
+}
+tfoot tr td{
+  text-align: center;
+  background-color: lightblue;
+}
+tfoot tr td input{
+  margin-right: 3px;
+}
+td{
+  height: 30px;
+}
+
+/*First last names + email*/
+form table tbody tr:nth-child(1) td input,
+form table tbody tr:nth-child(2) td input,
+form table tbody tr:nth-child(8) td input{
+  width: 200px;
+}
+/*Address + comments*/
+form table tbody tr:nth-child(3) td textarea,
+form table tbody tr:nth-child(12) td textarea{
+width: 190px;
+}
+/*City*/
+form table tbody tr:nth-child(4) td:nth-child(2) input{
+  width: 120px;
+}
+/*State*/
+form table tbody tr:nth-child(4) td:nth-child(3) {
+  font-weight: bold;
+}
+form table tbody tr:nth-child(4) td:nth-child(4) input{
+  width: 50px;
+}
+/*Zip postal code*/
+form table tbody tr:nth-child(5) td input{
+  width: 80px;
+}
+/*Phone - code, area code, num*/
+form table tbody tr:nth-child(7) td input:nth-child(1),
+form table tbody tr:nth-child(7) td input:nth-child(2){
+  width: 60px;
+}
+/*Birth date - day month+year*/
+form table tbody tr:nth-child(9) td input:nth-child(1),
+form table tbody tr:nth-child(9) td input:nth-child(2){
+  width: 20px;
+}
+form table tbody tr:nth-child(9) td input:nth-child(3){
+  width: 40px;
+}
