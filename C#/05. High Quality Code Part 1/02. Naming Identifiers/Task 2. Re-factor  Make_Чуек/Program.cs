@@ -6,14 +6,8 @@
         {
             Male,
             Female
-        };
+        }    
 
-        private class Person
-        {
-            public Gender Gender { get; set; }
-            public string Name { get; set; }
-            public int Age { get; set; }
-        }
         public void CreatePerson(int age)
         {
             Person person = new Person();
@@ -29,6 +23,15 @@
                 person.Name = "Maceto";
                 person.Gender = Gender.Female;
             }
+        }
+
+        private class Person
+        {
+            public Gender Gender { get; set; }
+
+            public string Name { get; set; }
+
+            public int Age { get; set; }
         }
     }
 }

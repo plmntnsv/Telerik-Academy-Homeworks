@@ -1,39 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace MineSweeper
 {
-	public class MineSweeperGame
+    public class MineSweeperGame
 	{
-		public class GamePoints
-		{
-			private string name;
-			private int points;
-            
-            public GamePoints() { }
-
-            public GamePoints(string name, int points)
-            {
-                this.name = name;
-                this.points = points;
-            }
-
-            public string Name
-			{
-				get { return name; }
-				set { name = value; }
-			}
-
-			public int Points
-			{
-				get { return points; }
-				set { points = value; }
-			}
-		}
-
-		static void Main(string[] аргументи)
+		public static void Main(string[] args)
         {
             const int Max = 35;
             string command = string.Empty;
@@ -92,6 +64,7 @@ namespace MineSweeper
 								NextMove(gameField, bombsField, row, column);
 								counter++;
 							}
+
 							if (Max == counter)
 							{
 								endGame = true;
@@ -147,6 +120,7 @@ namespace MineSweeper
 					willDetonate = false;
 					startGame = true;
 				}
+
 				if (endGame)
 				{
 					Console.WriteLine("\nGood job! You successfully opened 35 fields without a single bomb exploding.");
@@ -267,8 +241,8 @@ namespace MineSweeper
 
 			foreach (int position in bombPositions)
 			{
-				int col = (position / columns);
-				int row = (position % columns);
+				int col = position / columns;
+				int row = position % columns;
 
 				if (row == 0 && position != 0)
 				{
@@ -376,5 +350,33 @@ namespace MineSweeper
 
 			return char.Parse(count.ToString());
 		}
-	}
+
+        public class GamePoints
+        {
+            private string name;
+            private int points;
+
+            public GamePoints()
+            {
+            }
+
+            public GamePoints(string name, int points)
+            {
+                this.name = name;
+                this.points = points;
+            }
+
+            public string Name
+            {
+                get { return this.name; }
+                set { this.name = value; }
+            }
+
+            public int Points
+            {
+                get { return this.points; }
+                set { this.points = value; }
+            }
+        }
+    }
 }
