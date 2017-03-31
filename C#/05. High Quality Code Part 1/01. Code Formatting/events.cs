@@ -57,11 +57,12 @@ class Event : IComparable
     }
 }
 
-class Program
+public class Program
 {
-    static StringBuilder output = new StringBuilder();
+    private static StringBuilder output = new StringBuilder();
+    private static EventHolder events = new EventHolder();
 
-    static class Messages
+    private static class Messages
     {
         public static void EventAdded()
         {
@@ -98,6 +99,12 @@ class Program
     {
         MultiDictionary<string, Event> byTitle = new MultiDictionary<string, Event>(true);
         OrderedBag<Event> byDate = new OrderedBag<Event>();
+
+        public static void Main(string[] args)
+        {
+            while (ExecuteNextCommand()) { }
+            Console.WriteLine(output);
+        }
 
         public void AddEvent(DateTime date, string title, string location)
         {
@@ -142,14 +149,6 @@ class Program
                 Messages.NoEventsFound();
             }
         }
-    }
-
-    static EventHolder events = new EventHolder();
-
-    public static void Main(string[] args)
-    {
-        while (ExecuteNextCommand()) { }
-        Console.WriteLine(output);
     }
 
     private static bool ExecuteNextCommand()
