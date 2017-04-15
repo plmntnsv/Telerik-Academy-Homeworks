@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingWalkInMatrix", "RotatingWalkInMatrix.csproj", "{4D520899-7061-4EAA-B67E-D14EE8B30462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingWalkInMatrix.Tests", "..\Matrix.Tests\RotatingWalkInMatrix.Tests.csproj", "{E7420373-E998-4AA6-9FF3-87EF79AEDD2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingWalkInMatrix.Tests", "..\RotatingWalkInMatrix.Tests\RotatingWalkInMatrix.Tests.csproj", "{E7420373-E998-4AA6-9FF3-87EF79AEDD2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
