@@ -3,6 +3,12 @@
     using System;
     using System.Text;
 
+    /// <summary>
+    /// Draws a matrix starting form the top left corner and going in down-right direction. 
+    /// When no continuation is available at the current direction 
+    /// the direction is changed to the next possible clockwise. 
+    /// The matrix has dimensions size*size or defaults to 3*3.
+    /// </summary>
     public class Matrix
     {
         public const int Directions = 8;
@@ -65,11 +71,7 @@
         }
 
         /// <summary>
-        /// Fills the matrix with numbers starting from 1. 
-        /// Starts form the top left corner of the matrix and goes in down-right direction. 
-        /// When no continuation is available at the current direction 
-        /// the direction is changed to the next possible clockwise. 
-        /// The matrix has dimensions size*size or defaults to 3*3.
+        /// Fills the matrix with numbers starting from 1.
         /// </summary>
         public void Fill()
         {
