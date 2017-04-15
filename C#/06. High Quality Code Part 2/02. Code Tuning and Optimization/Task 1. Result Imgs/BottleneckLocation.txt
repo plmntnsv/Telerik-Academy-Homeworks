@@ -1,0 +1,1 @@
+OrbitsCalculator.cs ->  private void EarthRotation() -> lines 99 to 102
