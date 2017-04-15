@@ -50,7 +50,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\homework\RotatingWalkInMatrix.csproj">
+    <ProjectReference Include="..\RotatingWalkInMatrix\RotatingWalkInMatrix.csproj">
       <Project>{4d520899-7061-4eaa-b67e-d14ee8b30462}</Project>
       <Name>RotatingWalkInMatrix</Name>
     </ProjectReference>
