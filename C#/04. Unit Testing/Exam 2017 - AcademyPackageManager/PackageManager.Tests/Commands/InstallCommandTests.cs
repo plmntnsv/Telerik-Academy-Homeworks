@@ -56,7 +56,7 @@ namespace PackageManager.Tests.Commands
 
             var packageStub = new Mock<IPackage>();
 
-            //Act
+            // Act
             var installerCommand = new ExtendedInstallCommand(installerStub.Object, packageStub.Object);
 
             // Assert
@@ -71,7 +71,7 @@ namespace PackageManager.Tests.Commands
 
             var packageStub = new Mock<IPackage>();
 
-            //Act
+            // Act
             var installerCommand = new ExtendedInstallCommand(installerStub.Object, packageStub.Object);
 
             // Assert
@@ -86,7 +86,7 @@ namespace PackageManager.Tests.Commands
 
             var packageStub = new Mock<IPackage>();
 
-            //Act
+            // Act
             var installerCommand = new ExtendedInstallCommand(installerStub.Object, packageStub.Object);
 
             // Assert
@@ -104,7 +104,7 @@ namespace PackageManager.Tests.Commands
 
             var installerCommand = new ExtendedInstallCommand(installerMock.Object, packageStub.Object);
 
-            //Act
+            // Act
             installerCommand.Execute();
 
             // Assert
